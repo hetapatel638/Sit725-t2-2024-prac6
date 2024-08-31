@@ -1,0 +1,26 @@
+{
+    "name": "budget-control-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "public/startserver.js",
+    "scripts": {
+        "start": "node public/startserver.js",
+        "test": "mocha 'tests/**/*.mjs'"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "esm": "^3.2.25",
+        "express": "^4.19.2",
+        "mongodb": "^3.6.0",
+        "mongoose": "^5.10.9",
+        "socks": "^2.8.3",
+        "body-parser": "^1.19.0"
+    },
+    "devDependencies": {
+        "@shelf/jest-mongodb": "^1.2.3",
+        "chai": "^5.1.1",
+        "chai-http": "^4.3.0",
+        "mocha": "^10.7.3",
+        "mongodb-memory-server": "^10.0.0"
+    }
+}
